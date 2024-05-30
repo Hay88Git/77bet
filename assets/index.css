@@ -1,0 +1,20 @@
+.swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    background-color: #fd0;
+    border: 2px solid #FFF;
+}
+
+.blog-3 .main .box:hover .over{
+    display: flex;
+}
+
+@media all and (max-width: 767px) {
+    .swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+    }
+    .blog-3 .main .box .over{
+        display: none;
+    }
+}
